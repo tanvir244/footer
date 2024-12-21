@@ -1,0 +1,14 @@
+
+.before_bar {
+    display: inline-flex; 
+    align-items: center; 
+    position: relative;
+}
+.before_bar::before {
+    content: "";
+    display: block;
+    background-color: #fdca40;
+    height: 4px;
+    width: 40px;
+    margin-right: 8px; 
+}
